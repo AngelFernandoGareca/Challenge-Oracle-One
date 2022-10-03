@@ -1,0 +1,112 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 150%;
+}
+
+
+.logoalura{
+    position: absolute;
+    left: 3%;
+    right: 37.43%;
+    top: 1%;
+    bottom: 1%;
+}
+
+body{
+    background-color: #e5e5e5;
+}
+
+main{
+    display: flex;
+    margin-left:80px;
+    margin-bottom: 50px;
+}
+
+.input-texto{
+    background:none;
+    border: none;
+    margin-top: 115px;
+    resize: vertical; 
+}
+
+
+.encriptar{
+    background-color: darkblue;
+    color: white;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px 3px rgba(0,0,0,0.3);
+
+}
+
+.encriptar:hover{
+    background-color: white;
+    color: darkblue;
+    transform: scale(1.1);
+}
+
+.desencriptar{
+    margin-left: 30px;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+    box-shadow: 2px 2px 3px 3px rgba(0,0,0,0.3);
+
+}
+
+.desencriptar:hover{
+    background-color: white;
+    color: darkblue;
+    transform: scale(1.1);
+}
+
+
+.informacion{
+    font-size: 15px;
+}
+
+.mensaje{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-image: url(imagenes/muñeco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+    display: block;
+    resize: vertical; 
+}
+
+.copiar{
+    background-color: darkblue;
+    color: white;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    margin: 15px 0px 0px 95px;
+    box-shadow: 2px 2px 3px 3px rgba(0,0,0,0.3);
+}
+
+.copiar:hover{
+    background-color: white;
+    color: darkblue;
+    transform: scale(1.1);
+}
+
+
+p{
+    font-size: 12px;
+    text-align: center;
+}
